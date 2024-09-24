@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.form-container {
+    width: 390px;
+    border-radius: 0.75rem;
+    background-color: #fdb016;
+    padding: 2rem;
+    color: #744705;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .form {
+    margin-top: 1.5rem;
+  }
+  
+  .input-group {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .input-group label {
+    display: block;
+    color: #744705;
+    font-size: 20px;
+    margin-bottom: 4px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .input-group input {
+    width: 90%;
+    border-radius: 1.999rem;
+    border: 1px solid #43862f;
+    font-size: 18px;
+    outline: 0;
+    background-color: #925d0c;
+    padding: 0.75rem 1rem;
+    color: #744705;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .input-group input:focus {
+    border-color: rgb(216, 30, 34);
+  }
+  
+  .forgot {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #744705;
+    margin: 8px 0 14px 0;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .forgot a,.signup a {
+    color: #744705;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .forgot a:hover, .signup a:hover {
+    text-decoration: underline rgb(223, 6, 6);
+  }
+  
+  .sign {
+    display: block;
+    width: 100%;
+    background-color: rgb(64, 146, 78);
+    padding: 0.75rem;
+    text-align: center;
+    color: rgb(246, 248, 246);
+    border: none;
+    font-size: 16px;
+    border-radius: 1.999rem;
+    font-weight: 600;
+  }
+  
+  .social-message {
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+  }
+  
+  .line {
+    height: 1px;
+    flex: 1 1 0%;
+    background-color: rgb(209, 56, 61);
+  }
+  
+  .social-message .message {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #744705;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons .icon {
+    border-radius: 0.125rem;
+    padding: 0.75rem;
+    border: none;
+    background-color: transparent;
+    margin-left: 8px;
+  }
+  
+  .social-icons .icon svg {
+    height: 1.25rem;
+    width: 1.25rem;
+    fill: #744705;
+  }
+  
+  .signup {
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgba(156, 163, 175, 1);
+  }
+ 
